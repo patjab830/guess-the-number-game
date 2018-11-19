@@ -6,4 +6,9 @@
 
     <bean id="numberGenerator" class="com.patjab.NumberGeneratorImpl"></bean>
 
+    <bean id="game" class="com.patjab.GameImpl">
+        <!--<constructor-arg ref="numberGenerator"/>-->
+        <property name="numberGenerator" ref="numberGenerator"></property>
+    </bean>
+
 </beans>
