@@ -11,4 +11,8 @@
         <property name="numberGenerator" ref="numberGenerator"></property>
     </bean>
 
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor">
+
+    </bean>
+
 </beans>
