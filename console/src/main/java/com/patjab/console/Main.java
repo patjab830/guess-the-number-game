@@ -1,5 +1,9 @@
-package com.patjab;
+package com.patjab.console;
 
+import com.patjab.AppConfig;
+import com.patjab.Game;
+import com.patjab.MessageGenerator;
+import com.patjab.NumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
