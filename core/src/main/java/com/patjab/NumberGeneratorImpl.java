@@ -1,5 +1,7 @@
 package com.patjab;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.Random;
 
 //@Component("numberGenerator")
@@ -8,6 +10,7 @@ public class NumberGeneratorImpl implements NumberGenerator {
     // == fields ==
     private final Random random = new Random();
 
+    @Autowired
     private int maxNumber = 100;
 
 

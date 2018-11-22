@@ -1,6 +1,6 @@
 package com.patjab.console;
 
-import com.patjab.AppConfig;
+import com.patjab.config.AppConfig;
 import com.patjab.Game;
 import com.patjab.MessageGenerator;
 import com.patjab.NumberGenerator;
