@@ -21,6 +21,13 @@ public class Main {
         // get number generator bean from context
         NumberGenerator numberGenerator = context.getBean(NumberGenerator.class);
 
+        MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
+        String mainMsg = messageGenerator.getMainMessage();
+        String resultMsg = messageGenerator.getResultMessage();
+
+        log.info(mainMsg);
+        log.info(resultMsg);
+
         // call method next() to get a random number
         int number = numberGenerator.next();
 

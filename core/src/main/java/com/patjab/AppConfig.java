@@ -17,4 +17,9 @@ public class AppConfig {
     public NumberGeneratorImpl numberGenerator() {
         return new NumberGeneratorImpl();
     }
+
+    @Bean
+    public MessageGeneratorImpl messageGenerator() {
+        return new MessageGeneratorImpl();
+    }
 }
