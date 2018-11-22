@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-           http://www.springframework.org/schema/beans/spring-beans.xsd
-           http://www.springframework.org/schema/context
-           http://www.springframework.org/schema/context/spring-context.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:context="http://www.springframework.org/schema/context"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+           <!--http://www.springframework.org/schema/beans/spring-beans.xsd-->
+           <!--http://www.springframework.org/schema/context-->
+           <!--http://www.springframework.org/schema/context/spring-context.xsd">-->
 
-    <!--<context:annotation-config/>-->
-    <context:component-scan base-package="com.patjab"/>
+    <!--&lt;!&ndash;<context:annotation-config/>&ndash;&gt;-->
+    <!--<context:component-scan base-package="com.patjab"/>-->
 
-    <!--<bean id="numberGenerator" class="com.patjab.NumberGeneratorImpl"></bean>-->
+    <!--&lt;!&ndash;<bean id="numberGenerator" class="com.patjab.NumberGeneratorImpl"></bean>&ndash;&gt;-->
 
-    <!--<bean id="game" class="com.patjab.GameImpl">-->
-        <!--<constructor-arg ref="numberGenerator"/>-->
-        <!--<property name="numberGenerator" ref="numberGenerator"></property>-->
-    <!--</bean>-->
+    <!--&lt;!&ndash;<bean id="game" class="com.patjab.GameImpl">&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg ref="numberGenerator"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="numberGenerator" ref="numberGenerator"></property>&ndash;&gt;-->
+    <!--&lt;!&ndash;</bean>&ndash;&gt;-->
 
-    <!--<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor">-->
-    <!--</bean>-->
+    <!--&lt;!&ndash;<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor">&ndash;&gt;-->
+    <!--&lt;!&ndash;</bean>&ndash;&gt;-->
 
-</beans>
+<!--</beans>-->
