@@ -1,5 +1,6 @@
 package com.patjab;
 
+import com.patjab.config.GuessCount;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ public class GameImpl implements Game {
     private NumberGenerator numberGenerator;
 
     @Autowired
+    @GuessCount
     private int guessCount;
     private int number;
     private int guess;
